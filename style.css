@@ -213,3 +213,31 @@ right:5%;
 .divider p {
   color: #575757;
 }
+
+
+.tabel-section{
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+    background-color: #ffffff;
+    border: 1px solid #dad7d7;
+    border-radius: 12px;
+    padding: 40px;
+    margin-top: 150px;
+    margin-bottom: 200px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+}
+th{
+    background-color: #a52a52;
+    color: white;
+    padding: 16px;
+    border:1px solid #3c3b3b;
+}
+td{
+    padding: 16px;
+     border:1px solid #3c3b3b;
+}
