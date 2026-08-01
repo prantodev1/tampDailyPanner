@@ -93,5 +93,13 @@ nav{
     flex-direction:column;
     gap:15px;
 }
+.contant h1{
+    font-size: 48px;
+}
+
+.contant p{
+    font-size: 22px;
+    line-height: 1.5;
+}
 
 }
