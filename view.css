@@ -1,6 +1,6 @@
 /* Tablet */
 
-@/* Tablet */
+/* Tablet */
 @media (max-width: 992px) {
 
     .head{
@@ -56,9 +56,9 @@
     cursor:pointer;
 }
 
-/* .details{
+.details{
     display:none;
-} */
+}
 
 .list{
     display:none;
