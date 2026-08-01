@@ -30,6 +30,28 @@
         flex-direction: column;
         gap: 20px;
     }
+
+    .tabel-section{
+        padding:15px;
+        margin-top:100px;
+        margin-bottom:50px;
+    }
+
+    .tabel-text h2{
+        font-size:28px;
+    }
+
+    .tabel-text p{
+        font-size:16px;
+    }
+
+    th,
+    td{
+        padding:10px;
+        font-size:14px;
+        white-space:nowrap;
+    }
+
 }
 
 
