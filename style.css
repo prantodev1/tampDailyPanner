@@ -1,0 +1,189 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.top{
+    position: fixed;
+    top: 20px;
+    left: 40px;
+    right: 40px;
+    z-index: 1000;
+
+    background-color: rgba(247, 249, 250, 0.126);
+    backdrop-filter: blur(10px);
+    border-radius: 60px;
+    padding: 8px;
+}
+.head{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  gap: 20px;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+}
+.list{
+  display: flex;
+  gap: 20px;
+  list-style: none;
+ margin: 0;
+ padding: 0;
+}
+.list li a{
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-weight: 600;
+  display: block;
+  padding: 10px 15px;
+  border-radius: 8px;
+  transition: 0.3s;
+
+}
+.list li a:hover{
+  background: #000;
+    color: white;
+}
+.details{
+  background-color: rgba(218, 218, 220, 0.678);
+  color:black;
+  font-size: 18px;
+  font-width: 600;
+  padding: 10px 15px;
+  border-radius: 8px;
+  border-width: 1px;
+  border-style: none;
+ cursor: pointer;
+ box-shadow:  0 10px 8px rgb(30, 30, 31);
+ transition: 0.3s;
+}
+.details:hover{
+  background: #000;
+    color: white;
+    box-shadow: 0 10px 8px rgb(30, 30, 31);
+    transition: 0.3s;
+}
+.details:active{
+    transform: scale(.89);
+}
+
+/* main */
+
+.cover{ background-image:
+    linear-gradient(135deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./Lifestyle.webp");
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin-top: 120px;
+   overflow-y: auto;
+   border-radius: 10px;
+  
+ 
+}
+.cover .contant{
+  text-align: center;
+  font-size: 40px;
+  color: #c3c3c2e6;
+  font-weight: 600;
+ text-shadow: 2px 2px 5px #000;
+  
+}
+.cover .contant h2{
+  color: #e9e9a8e6;
+}
+.get{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+/* section-2 */
+.card-parent h2{
+   text-align: center;
+  font-size: 40px;
+  color: #030303e6;
+  font-weight: 600;
+ margin: 30px;
+}
+.card{
+  display: flex;
+    align-items: flex-start;
+    gap: 40px;
+    max-width: 1100px;
+    margin: 30px auto 25px auto;
+}
+.card img{
+  height: 220px;
+  width: 300px;
+  border-radius: 10px;
+}
+
+.card li{
+  line-height: 1.8;
+  font-size: 20px;
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+   text-shadow: 1px 1px 3px #2a292933;
+}
+.card-parent hr{
+  margin-top: 20px;
+}
+.footer-nav {
+  background: #0d1b2a;
+  padding: 30px 0 25px;
+   border-radius: 10px;
+}
+.footer-big-perent {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.footer-perent {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+ 
+}
+
+.footer-right a {
+  width: 50px;
+  height: 50px;
+  background: #1b263b;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-right {
+  display: flex;
+  gap: 20px;
+}
+.footer-right img {
+  width: 24px;
+  height: 24px;
+}
+.divider {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+}
+.divider-link {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.divider p {
+  color: #575757;
+}
